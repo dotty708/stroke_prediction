@@ -94,7 +94,6 @@ edited_table = st.data_editor(
         "우리말 뜻": st.column_config.TextColumn(
             "우리말 뜻",
             help="교재를 보고 직접 적어 보세요.",
-            placeholder="여기에 뜻을 적어 보세요",
         ),
         "값의 종류": st.column_config.TextColumn("값의 종류", disabled=True),
         "빈 값 개수": st.column_config.NumberColumn("빈 값 개수", disabled=True),
